@@ -9,7 +9,7 @@ script:
   - docker run -e CI=true hello/frontend npm run test -- --coverage
 
 deploy:
-  provider: elasticbeantalk
+  provider: elasticbeanstalk
   region: "us-east-2"
   app: "docker"
   env: "Docker-env"
