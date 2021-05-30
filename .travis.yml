@@ -18,8 +18,8 @@ deploy:
 
   on:
     branch: master
-  access_key_id: AKIAZ52YBXNFFMGRKROE
-  secret_access_key: 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
+  access_key_id: AKIAZ52YBXNFGSQFWVEX
+  secret_access_key: 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
 
   
   #   access_key_id: $AWS_ACCESS_KEY
@@ -28,3 +28,5 @@ deploy:
     
 
 
+  # access_key_id: AKIAZ52YBXNFFMGRKROE
+  # secret_access_key: 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
