@@ -18,7 +18,7 @@ deploy:
 
   on:
     branch: master
-  access_key_id: AKIAZ52YBXNFACUQUV7V
+  access_key_id: AKIAZ52YBXNFPEVGCJPS
   secret_access_key: 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
 
   
