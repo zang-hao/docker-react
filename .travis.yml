@@ -6,4 +6,4 @@ before_install:
   - docker build -t hello/frontend -f Dockerfile.dev .
 
 script:
-  - docker run hello/frontend npm run test -- --coverage
+  - docker run -e CI=true hello/frontend npm run test -- --coverage
