@@ -10,6 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
+  skip-cleanup: true
   region: "us-east-2"
   app: "Docker-test"
   env: "Dockertest-env2"
