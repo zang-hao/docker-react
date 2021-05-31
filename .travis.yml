@@ -23,6 +23,7 @@ deploy:
 
   access_key_id: AKIAZ52YBXNFJ3RR4AHM
   secret_access_key: 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
+  wait-until-deployed: true
   # acl: public_read
 
   
